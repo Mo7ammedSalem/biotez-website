@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mansour</title>
+    <title>Biotez</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="WOW-master/css/libs/animate.css">
+    <link rel="stylesheet" href="WOW-master/css/libs/animate.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,12 +18,12 @@
       rel="stylesheet"
     />
     <!-- anmiaton -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.css" />
     <!-- anmation -->
   </head>
   <body>
     <div class="header" id="header">
-      <div class="container"> 
+      <div class="container">
         <img src="logo.png" class="logo" alt="img" />
         <ul class="main-nav">
           <li><a href="#">home</a></li>
@@ -39,7 +39,11 @@
 
     <div class="hero" id="hero">
       <div class="container">
-        <div class="text wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+        <div
+          class="text wow fadeInLeft"
+          data-wow-duration="0.5s"
+          data-wow-delay="0.5s"
+        >
           <h2>low cost bionic <br />limbs</h2>
           <p>
             A small start-up is set to turn the market for upper and lower
@@ -49,60 +53,78 @@
           <button>Contact Us</button>
         </div>
         <div class="img">
-          <img class="wow fadeInRight" src="robot.jpeg" alt="img" data-wow-duration="0.5s" data-wow-delay="0.5s" />
+          <img
+            class="wow fadeInRight"
+            src="robot.jpeg"
+            alt="img"
+            data-wow-duration="0.5s"
+            data-wow-delay="0.5s"
+          />
         </div>
       </div>
     </div>
-    
+
     <!-- end hero -->
-        <!-- start video -->
-        <div class="video" id="about">
-          <div class="container" >
-            <div class="row  wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">
-              <div class="col">
-                <h2 class="title-article">What we do?</h2>
-                <h4>
-                  The main goal of our Biomedical Research Lab is to understand how
-                  scientific processes are responsible for producing the
-                  interactions and measurements we observe. We use a combination of
-                  approaches and technologies that we have developed for use in our
-                  studies. Learn more about our research and areas of study
-                  below.Future Goals: In the future, the services provided by this
-                  project will not be limited to the category of amputees, but one
-                  of the main objectives will be the manufacture of auxiliary limbs
-                  and compensatory devices for patients with quadriplegic paralysis,
-                  which helps them to walk and move, and also helps them with
-                  physical therapy and performance of tasks and functions. By means
-                  of brain signals to reintegrate and qualify them to be useful
-                  individuals within the community. It is worth mentioning that an
-                  artificial prosthesis was used when the lower extremities of the
-                  limb, such as the leg or foot, were exposed to human limbs. Rat
-                  brain and turn it into a movement through which the patient can
-                  perform normal functions and special needs "projects exist, but in
-                  Egypt"
-                </h4>
-              </div>
-              <div class="col">
-                <div class="feature-img">
-                  <img src="leg.png" alt="" width="100%" />
-                  <img
-                    src="play.png"
-                    class="play-btn"
-                    onclick="playVideo('logo.mp4')"
-                    alt=""
-                  />
-                </div>
-              </div>
+    <!-- start video -->
+    <div class="video" id="about">
+      <div class="container">
+        <div
+          class="row wow fadeInLeft"
+          data-wow-duration="0.8s"
+          data-wow-delay="0.8s"
+        >
+          <div class="col">
+            <h2 class="title-article">What we do?</h2>
+            <h4>
+              The main goal of our Biomedical Research Lab is to understand how
+              scientific processes are responsible for producing the
+              interactions and measurements we observe. We use a combination of
+              approaches and technologies that we have developed for use in our
+              studies. Learn more about our research and areas of study
+              below.Future Goals: In the future, the services provided by this
+              project will not be limited to the category of amputees, but one
+              of the main objectives will be the manufacture of auxiliary limbs
+              and compensatory devices for patients with quadriplegic paralysis,
+              which helps them to walk and move, and also helps them with
+              physical therapy and performance of tasks and functions. By means
+              of brain signals to reintegrate and qualify them to be useful
+              individuals within the community. It is worth mentioning that an
+              artificial prosthesis was used when the lower extremities of the
+              limb, such as the leg or foot, were exposed to human limbs. Rat
+              brain and turn it into a movement through which the patient can
+              perform normal functions and special needs "projects exist, but in
+              Egypt"
+            </h4>
+          </div>
+          <div class="col">
+            <div class="feature-img">
+              <img src="leg.png" alt="" width="100%" />
+              <img
+                src="play.png"
+                class="play-btn"
+                onclick="playVideo('logo.mp4')"
+                alt=""
+              />
             </div>
           </div>
-          <div class="video-player" id="videoPlayer" >
-            <video width="100%" controls autoplay id="myVideo"data-wow-duration="0.8s" data-wow-delay="0.8s" class="wow fadeInRight">
-              <source src="logo.mp4" type="video/mp4" />
-            </video>
-            <img src="close.png" class="close-btn" onclick="stopVideo()" alt="" />
-          </div>
         </div>
-        <!-- End video -->
+      </div>
+      <div class="video-player" id="videoPlayer">
+        <video
+          width="100%"
+          controls
+          autoplay
+          id="myVideo"
+          data-wow-duration="0.8s"
+          data-wow-delay="0.8s"
+          class="wow fadeInRight"
+        >
+          <source src="logo.mp4" type="video/mp4" />
+        </video>
+        <img src="close.png" class="close-btn" onclick="stopVideo()" alt="" />
+      </div>
+    </div>
+    <!-- End video -->
     <!-- Start Articles -->
     <div class="articles" id="products">
       <h2 class="main-title">Our products</h2>
@@ -113,7 +135,13 @@
         even the most complex tasks on an intuitive level.
       </p>
       <div class="container">
-        <div class="box wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.8s" data-wow-offset="2"  data-wow-iteration="2">
+        <div
+          class="box wow fadeInLeft"
+          data-wow-duration="0.5s"
+          data-wow-delay="0.8s"
+          data-wow-offset="2"
+          data-wow-iteration="2"
+        >
           <img src="Picsart1.jpg" alt="" />
           <div class="content">
             <h3>bionic hand</h3>
@@ -127,7 +155,13 @@
             <i class="fas fa-long-arrow-alt-right"></i>
           </div>
         </div>
-        <div class="box wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.8s" data-wow-offset="2"  data-wow-iteration="2">
+        <div
+          class="box wow fadeInRight"
+          data-wow-duration="0.5s"
+          data-wow-delay="0.8s"
+          data-wow-offset="2"
+          data-wow-iteration="2"
+        >
           <img src="Picsart1.jpg" alt="" />
           <div class="content">
             <h3>myo hand</h3>
@@ -141,7 +175,13 @@
             <i class="fas fa-long-arrow-alt-right"></i>
           </div>
         </div>
-        <div class="box wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.8s" data-wow-offset="2"  data-wow-iteration="2">
+        <div
+          class="box wow fadeInLeft"
+          data-wow-duration="0.5s"
+          data-wow-delay="0.8s"
+          data-wow-offset="2"
+          data-wow-iteration="2"
+        >
           <img src="Picsart1.jpg" alt="" />
           <div class="content">
             <h3>myo hand</h3>
@@ -165,7 +205,13 @@
       <h2 class="main-title">Services</h2>
       <p>bionic hand</p>
       <div class="container">
-        <div class="box wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.8s" data-wow-offset="2"  data-wow-iteration="2">
+        <div
+          class="box wow fadeInLeft"
+          data-wow-duration="0.5s"
+          data-wow-delay="0.8s"
+          data-wow-offset="2"
+          data-wow-iteration="2"
+        >
           <i class="fa-solid fa-dumbbell"></i>
           <h3>Force</h3>
           <p>
@@ -177,7 +223,13 @@
             <a href="#">RHPSN</a>
           </div>
         </div>
-        <div class="box wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.8s" data-wow-offset="2"  data-wow-iteration="2">
+        <div
+          class="box wow fadeInRight"
+          data-wow-duration="0.5s"
+          data-wow-delay="0.8s"
+          data-wow-offset="2"
+          data-wow-iteration="2"
+        >
           <i class="fa-solid fa-gauge-simple-high"></i>
           <h3>Speed</h3>
           <p>
@@ -189,7 +241,13 @@
             <a href="#">RHPSN</a>
           </div>
         </div>
-        <div class="box wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.8s" data-wow-offset="2"  data-wow-iteration="2">
+        <div
+          class="box wow fadeInLeft"
+          data-wow-duration="0.5s"
+          data-wow-delay="0.8s"
+          data-wow-offset="2"
+          data-wow-iteration="2"
+        >
           <i class="fa-solid fa-brain"></i>
           <h3>Mind</h3>
           <p>
@@ -250,7 +308,11 @@
     <!-- end contact -->
     <!-- Start Footer -->
     <div class="footer">
-      <div class="container wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+      <div
+        class="container wow fadeInRight"
+        data-wow-duration="0.5s"
+        data-wow-delay="0.5s"
+      >
         <div class="box">
           <h3>BIOTEZ</h3>
           <ul class="social">
@@ -314,10 +376,12 @@
       </div>
       <p class="copyright">
         Made With &lt;3 By
-        <a class="mo"
+        <a
+          class="mo"
           href="https://www.facebook.com/mohammed.benzema.58"
           target="_blank"
-        >Mohammed Salem</a>
+          >Mohammed Salem</a
+        >
       </p>
     </div>
     <!-- End Footer -->
@@ -334,11 +398,10 @@
         myVideo.src = file;
         videoPlayer.style.display = "block";
       }
-      
     </script>
-     <script src="WOW-master/dist/wow.min.js"></script>
-     <script>
-     new WOW().init();
-     </script>
+    <script src="WOW-master/dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
