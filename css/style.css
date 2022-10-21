@@ -184,7 +184,7 @@ ul {
   width: 100%;
 }
 
-.Advantages .box>i {
+.Advantages .box > i {
   margin: 30px auto 20px;
   display: block;
   text-align: center;
@@ -192,14 +192,14 @@ ul {
   font-size: 28px;
 }
 
-.Advantages .box>h3 {
+.Advantages .box > h3 {
   text-align: center;
   margin: 20px 0 20px;
   font-size: 25px;
   color: #2a445a;
 }
 
-.Advantages .box>p {
+.Advantages .box > p {
   text-align: center;
   padding: 1rem 2rem;
   color: #444;
@@ -260,7 +260,7 @@ ul {
   align-items: center;
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
   #hero .container {
     flex-wrap: wrap;
   }
@@ -276,8 +276,6 @@ ul {
   text-transform: capitalize;
   color: #2a445a;
 }
-
-
 
 #hero .container .text p {
   font-size: 26px;
@@ -403,7 +401,7 @@ ul {
   align-items: center;
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
   .video .row {
     flex-wrap: wrap;
   }
@@ -477,11 +475,13 @@ video:focus {
   padding-bottom: 40px;
   position: relative;
   background: rgb(8, 73, 67);
-  background: linear-gradient(45deg,
-      rgba(8, 73, 67, 1) 15%,
-      rgba(8, 73, 67, 1) 39%,
-      rgba(37, 101, 95, 1) 67%,
-      rgba(8, 73, 67, 1) 80%);
+  background: linear-gradient(
+    45deg,
+    rgba(8, 73, 67, 1) 15%,
+    rgba(8, 73, 67, 1) 39%,
+    rgba(37, 101, 95, 1) 67%,
+    rgba(8, 73, 67, 1) 80%
+  );
 }
 
 .ceo .container {
@@ -610,11 +610,13 @@ video:focus {
 /* start footer */
 .footer {
   background: rgb(8, 73, 67);
-  background: linear-gradient(45deg,
-      rgba(8, 73, 67, 1) 15%,
-      rgba(8, 73, 67, 1) 39%,
-      rgba(37, 101, 95, 1) 67%,
-      rgba(8, 73, 67, 1) 80%);
+  background: linear-gradient(
+    45deg,
+    rgba(8, 73, 67, 1) 15%,
+    rgba(8, 73, 67, 1) 39%,
+    rgba(37, 101, 95, 1) 67%,
+    rgba(8, 73, 67, 1) 80%
+  );
   padding: 70px 0 0;
 }
 
@@ -764,4 +766,3 @@ video:focus {
 }
 
 /* End Footer */
-
